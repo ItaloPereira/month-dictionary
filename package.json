@@ -1,0 +1,30 @@
+{
+  "name": "month-dictionary",
+  "version": "1.0.0",
+  "description": "A nodejs month multilanguage dictionary.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ItaloPereira/month-dictionary.git"
+  },
+  "keywords": [
+    "month",
+    "multilanguage"
+  ],
+  "author": "Italo Pereira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ItaloPereira/month-dictionary/issues"
+  },
+  "homepage": "https://github.com/ItaloPereira/month-dictionary#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  }
+}
