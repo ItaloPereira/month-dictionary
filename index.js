@@ -4,4 +4,4 @@ const monthDictionary = require('./lib/month_dictionary');
 
 
 
-console.log(monthDictionary(Infinity));
+console.log(monthDictionary('mywqd', 5));
