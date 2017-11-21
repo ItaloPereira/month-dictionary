@@ -7,11 +7,11 @@ Month-Dictionary is a multi-language month finder that has 100+ languages availa
 ## Installation
 Install the dependencies.
 ```sh
-$ npm install --save 
+$ npm install --save month-dictionary
 ```
 ### Example 
 ```js
-var monthDictionary = require('');
+var monthDictionary = require('month-dictionary');
 
 console.log(monthDictionary()) // No arguments
 // Returns all the months in english
