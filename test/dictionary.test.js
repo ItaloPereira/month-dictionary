@@ -153,4 +153,14 @@ describe("When I call monthDictionary with 2 valid arguments with number is in f
 
 });
 
+describe("When I call monthDictionary with 3 or more arguments only the first and second are considered (7, 'en-au', 'foo', 56)", function () {
+    
+    it("It should return (7, 'en-au', 'foo', 56)", function () {
+
+        expect(monthDictionary(7, 'en-au', 'foo', 56)).to.be.equals('July');
+
+    });
+
+});
+
 
