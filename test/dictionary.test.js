@@ -32,6 +32,15 @@ describe("When I call monthDictionary with 1 arguments typeof == 'string' ('pt-b
 
 });
 
+describe("When I call monthDictionary with 1 arguments typeof == 'string' and in uppercase ('PT-BR')", function () {
+    it("It should return all months in 'PT-BR'", function () {
+
+        expect(monthDictionary('PT-BR')).to.be.equals(dictionary['pt-br']);
+
+    });
+
+});
+
 
 describe("When I call monthDictionary with 1 arguments that is not 'number' or 'string' (true)", function () {
     
@@ -148,6 +157,26 @@ describe("When I call monthDictionary with 2 valid arguments with number is in f
     it("It should return (4, 'en-au')", function () {
 
         expect(monthDictionary(4, 'en-au')).to.be.equals('April');
+
+    });
+
+});
+
+describe("When I call monthDictionary with 2 valid arguments but the string is uppercase(4, 'EN-AU')", function () {
+    
+    it("It should return (4, 'EN-AU')", function () {
+
+        expect(monthDictionary(4, 'EN-AU')).to.be.equals('April');
+
+    });
+
+});
+
+describe("When I call monthDictionary with 2 valid arguments but the string is uppercase ('EN-AU', 4)", function () {
+    
+    it("It should return ('EN-AU', 4)", function () {
+
+        expect(monthDictionary('EN-AU', 4)).to.be.equals('April');
 
     });
 
