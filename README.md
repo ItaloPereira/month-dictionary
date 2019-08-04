@@ -16,7 +16,7 @@ var monthDictionary = require('month-dictionary');
 console.log(monthDictionary()) // No arguments
 // Returns all the months in english
 
-console.log(monthDictionary('pt-br')) // Language abreviation as argument
+console.log(monthDictionary('pt-br')) // Language abbreviation as argument
 // Returns all the months in portuguese
 
 console.log(monthDictionary(6)) // Numbers as arguments
